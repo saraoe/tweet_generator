@@ -1,0 +1,10 @@
+The GPT-NEO model has been finetuned on english tweets from November 15th, 2021 to January 27th, 2022 which included the keywords *denmark* and one of the three keywords *covid*, *corona*, or *omicron*. 
+The polarity of the tweets have been classified using the [pysentimiento](https://github.com/pysentimiento/pysentimiento) model.
+Using only the tweets with one of the three polarity labels (i.e., negative, neutral, positive) the GPT-NEO has been finetuned resulting in three different generative models.
+
+**How to use the app**
+
+In the sidebar you can choose which of the three models you want to use. 
+Then you choose a prompt. 
+You can either choose a predefined prompt and it will show 20 tweets, which have already been generated.
+Otherwise, you can make your own prompt by selecting 'Custom prompt'. Note that generating your own tweet might take a few seconds.
