@@ -11,5 +11,5 @@ Using gpt-neo to generate tweets based on corpus of Danish tweets during COVID-1
 ├── generate_tweets.py              <- generating tweets
 ├── streamlit_generate_tweets.py    <- streamlit app                       
 ├── description.txt                 <- description text for streamlit app
-└──  requirement.txt           <- A requirements file of the required packages.
+└── requirement.txt
 ```
